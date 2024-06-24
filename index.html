@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson</title>
+</head>
+<body>
+
+<section class="tab">
+    <div class="container">
+        <div class="buttons">
+            <button class="btn active" onclick="toggleClass(this, 'div1')">tab1</button>
+            <button class="btn" onclick="toggleClass(this, 'div2')">tab2</button>
+            <button class="btn" onclick="toggleClass(this, 'div3')">tab3</button>
+        </div>
+        <div class="context active" id="div1">
+            <div class="text">
+                <p> 1 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, ducimus!</p>
+            </div>
+        </div>
+
+        <div class="context" id="div2">
+            <div class="text">
+                <p> 2 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, ducimus!</p>
+            </div>
+        </div>
+
+        <div class="context" id="div3">
+            <div class="text">
+                <p> 3 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, ducimus!</p>
+            </div>
+        </div>
+</div>
+</section>
+
+<script src="lesson1.js"></script>
+</body>
+</html>

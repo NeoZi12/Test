@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 830px;
+    margin: 0 auto;
+
+}
+
+.tab {
+    margin-top: 50px;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.btn.active{
+    background-color: white;
+
+}
+
+.context {
+    display: none;
+}
+
+.context.active {
+    display: block;
+}
